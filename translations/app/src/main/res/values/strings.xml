@@ -1,0 +1,420 @@
+<resources>
+    <!-- Non UI text string resources -->
+    <!-- TODO(prod): Change real terms of service and privacy policy links links -->
+    <string name="url_app_tos_link" translatable="false">https://example.com</string>
+    <string name="url_app_privacy_policy_link" translatable="false">https://example.com</string>
+
+    <!-- App branding -->
+    <string name="app_name" description="Name for the app" translatable="false">Afrodite</string>
+    <string name="app_slogan" description="Slogan for the app">Dating app</string>
+
+    <!-- Generic texts -->
+    <string name="generic_error" description="Generic error message">Error</string>
+    <string name="generic_empty" description="Generic empty text">Empty</string>
+    <string name="generic_disabled" description="Generic disabled text">Disabled</string>
+    <string name="generic_details" description="Generic details text">Details</string>
+    <string name="generic_resend" description="Generic resend text">Resend</string>
+    <string name="generic_refresh" description="Generic refresh text">Refresh</string>
+    <string name="generic_retry" description="Generic retry text">Retry</string>
+    <string name="generic_delete" description="Generic delete text">Delete</string>
+    <string name="generic_message" description="Generic message text">Message</string>
+    <string name="generic_time" description="Generic time text">Time</string>
+    <string name="generic_state" description="Generic state text">State</string>
+    <string name="generic_cancel" description="Generic cancel text">Cancel</string>
+    <string name="generic_close" description="Generic close text">Close</string>
+    <string name="generic_ok" description="Generic OK text">OK</string>
+    <string name="generic_yes" description="Generic yes text">Yes</string>
+    <string name="generic_no" description="Generic no text">No</string>
+    <string name="generic_try_again" description="Generic try again text">Try again</string>
+    <string name="generic_not_found" description="Generic not found text">Not found</string>
+    <string name="generic_action_completed" description="Generic action completed text">Action completed</string>
+    <string name="generic_login" description="Generic login text">Login</string>
+    <string name="generic_logout" description="Generic logout text">Logout</string>
+    <string name="generic_logout_confirmation_title" description="Generic logout confirmation title text">Logout?</string>
+    <string name="generic_save_confirmation_title" description="Generic save confirmation title text">Save?</string>
+    <string name="generic_error_occurred" description="Generic error occurred text">Error occurred</string>
+    <string name="generic_previous_action_in_progress" description="Generic previous action in progress text">Previous action is still in progress</string>
+    <string name="generic_continue" description="Generic continue text">Continue</string>
+    <string name="generic_take_photo" description="Generic take photo text">Take photo</string>
+    <string name="generic_gender_man" description="Generic man gender text">Man</string>
+    <string name="generic_gender_woman" description="Generic woman gender text">Woman</string>
+    <string name="generic_gender_nonbinary" description="Generic non-binary gender text">Non-binary</string>
+    <string name="generic_gender_man_plural" description="Generic man gender text in plural form">Men</string>
+    <string name="generic_gender_woman_plural" description="Generic woman gender text in plural form">Women</string>
+    <string name="generic_gender_nonbinary_plural" description="Generic non-binary gender text in plural form">Non-binaries</string>
+    <string name="generic_show_only_selected" description="Generic show only selected text">Show only selected</string>
+    <string name="generic_not_supported_on_web" description="Generic not supported on web text">Not supported on Web</string>
+    <string name="generic_data_sync_failed" description="Generic data sync failed">Data sync failed</string>
+
+    <string name="generic_text_field_age_hint_text" description="Input field hint text for age">Insert an age between 18–99</string>
+    <string name="generic_search_settings_looking_for_all_genders_text" desctiption="Search settings radio button option for men and women who are looking all genders">All</string>
+    <string name="generic_error_app_version_is_unsupported" desctiption="Snackbar text that client version is unsupported">Current app version is unsupported</string>
+
+    <!-- Notification categories -->
+    <string name="notification_category_messages" description="Title for notification category messages">Messages</string>
+    <string name="notification_category_likes" description="Title for notification category likes">Likes</string>
+    <string name="notification_category_moderation_request_status" description="Title for notification category image moderation status">Image moderation status</string>
+
+    <!-- Notification like received -->
+    <string name="notification_like_received_single" description="Title for like received notification when single like is received">Like received</string>
+    <string name="notification_like_received_multiple" description="Title for like received notification when multiple likes is received">Likes received</string>
+
+    <!-- Notification moderation request status -->
+    <string name="notification_moderation_request_status_accepted" description="Title for moderation request status notification when status is accepted">Image moderation accepted</string>
+    <string name="notification_moderation_request_status_rejected" description="Title for moderation request status notification when status is rejected">Image moderation rejected</string>
+
+    <!-- Notification message received -->
+    <string name="notification_message_received_single" description="Title for message received when single message is received">%s sent a message</string>
+    <string name="notification_message_received_multiple" description="Title for message received when multiple messages are received">%s sent messages</string>
+    <string name="notification_message_received_single_generic" description="Title for message received when single message is received but there is no info who sent it">New message received</string>
+
+    <!-- Notification -->
+    <string name="notification_session_expired_error" description="Snackbar text for notifying that notification action was ignored because of expired notification session ID">Notification action ignored because of expired notification session ID</string>
+
+    <!-- Notification settings screen -->
+    <string name="notification_settings_screen_title" description="Title for notification settings screen">Notifications</string>
+    <string name="notification_settings_screen_notifications_disabled_from_system_settings_text" description="Info text that notifications are disabled from system settings">Notifications are disabled from system notification settings</string>
+    <string name="notification_settings_screen_notification_category_disabled_from_system_settings_text" description="Info text that notification category is disabled from system settings">Disabled from system notification settings</string>
+    <string name="notification_settings_screen_open_system_notification_settings" description="Action title for opening system notification settings">System notification settings</string>
+
+    <!-- App bar actions -->
+    <string name="app_bar_action_about" description="Title for app bar action which opens about dialog">About</string>
+
+    <!-- Image processing UI -->
+    <string name="image_processing_ui_confirm_photo_dialog_title" description="Dialog title for confirming new security selfie">Continue with this photo?</string>
+    <string name="image_processing_ui_upload_in_progress_dialog_description" description="Progress dialog info text that security selfie upload is in progress">Uploading photo</string>
+    <string name="image_processing_ui_upload_failed_dialog_title" description="Progress dialog info text that security selfie upload failed">Upload failed</string>
+    <string name="image_processing_ui_upload_in_processing_queue_dialog_description" description="Progress dialog info text that security selfie is currently in server's processing queue">Waiting for processing. Queue number: %s</string>
+    <string name="image_processing_ui_upload_processing_ongoing_description" description="Progress dialog info text that security selfie processing is ongoing">Processing ongoing</string>
+
+    <!-- Login screen -->
+    <!-- TODO remove unnecessary -->
+    <string name="login_screen_login_button" description="Login button text">Login</string>
+    <string name="login_screen_register_button" description="Register button text">Register</string>
+    <string name="login_screen_login_note_text_beginning" description="Text about agreeing terms of service and privacy policy">By signing in, you agree to our</string>
+    <string name="login_screen_login_note_text_tos" description="Text for terms of service link">Terms of Service</string>
+    <string name="login_screen_login_note_text_and" description="Word 'and' between terms of service and privacy policy links">and</string>
+    <string name="login_screen_login_note_text_privacy_policy" description="Text for privacy policy link">Privacy Policy</string>
+    <string name="login_screen_action_demo_account_login" description="Text for demo account login action">Demo account login</string>
+    <string name="login_screen_demo_account_dialog_title" description="Title for demo account login dialog">Demo account login</string>
+    <string name="login_screen_demo_account_dialog_description" description="Description for demo account login dialog">Login to demo account on the demo account server.</string>
+    <string name="login_screen_demo_account_identifier" description="Placeholder text for demo account identifier">Account ID</string>
+    <string name="login_screen_demo_account_password" description="Placeholder text for demo account password">Password</string>
+    <string name="login_screen_demo_account_login_progress_dialog" description="Dialog info text that demo account login is in progress">Login…</string>
+    <string name="login_screen_demo_account_login_failed" description="Snackbar text for demo account login failed">Login failed</string>
+    <string name="login_screen_demo_account_login_session_expired" description="Snackbar text for demo account login session expiration">Demo account session expired</string>
+    <string name="login_screen_sign_in_with_error" description="Snackbar text for sign in with error">Sign in with failed</string>
+    <string name="login_screen_sign_in_with_progress_dialog" description="Dialog info text that sign in with login is in progress">Login…</string>
+
+    <!-- Demo account screen -->
+    <string name="demo_account_screen_no_accounts_available" description="Text displayed when available accounts list is empty">No accounts available</string>
+    <string name="demo_account_screen_new_account_action" description="Text for action which creates a new account">New account</string>
+    <string name="demo_account_screen_new_account_dialog_title" description="Dialog title text for action which creates a new account">New account</string>
+    <string name="demo_account_screen_new_account_dialog_description" description="">Create new account and login to it?</string>
+    <string name="demo_account_screen_login_to_account_dialog_title" description="Dialog title text for confirming login to some account">Login to account?</string>
+    <string name="demo_account_screen_confirm_logout_dialog_title" description="Dialog title text for confirming logout from demo account">Logout?</string>
+
+    <!-- Initial setup -->
+    <string name="initial_setup_screen_email_title" description="Title for initial setup email address info">My email address is…</string>
+    <string name="initial_setup_screen_email_hint_text" description="Hint text for inserting email address to text field">Insert email address</string>
+    <string name="initial_setup_screen_age_confirmation_title" description="Title for age confirmation screen">Age confirmation</string>
+    <string name="initial_setup_screen_age_confirmation_checkbox" description="Title for age confirmation checkbox">I\'m at least 18 years old</string>
+    <string name="initial_setup_screen_security_selfie_title" description="Title for initial setup security selfie screen">My security selfie is…</string>
+    <string name="initial_setup_screen_security_selfie_description" description="Description for initial setup security selfie step">Take selfie with your phone\'s front camera. The selfie is used for moderating your profile images and by default it is only visible to content Moderators.</string>
+    <string name="initial_setup_screen_profile_pictures_title" description="Title for profile pictures selection screen">My profile pictures are…</string>
+    <string name="initial_setup_screen_profile_pictures_select_picture_dialog_title" description="Dialog title for initial setup profile picture selection dialog">Select picture…</string>
+    <string name="initial_setup_screen_profile_pictures_select_picture_from_gallery_title" description="Action title for selecting profile picture from gallery">From gallery</string>
+    <string name="initial_setup_screen_profile_pictures_select_picture_take_new_picture_title" description="Action title for taking new picture to be used as a profile picture">Take new photo</string>
+    <string name="initial_setup_screen_profile_pictures_select_picture_security_selfie_title" description="Action title for using security selfie as a profile picture">Security selfie</string>
+    <string name="initial_setup_screen_profile_pictures_primary_image_info_dialog_description" description="Dialog description text about profile primary image">Adding at least of one profile image is required. The square shaped crop of the first profile image is displayed in profile grid and some other places in the app.</string>
+    <string name="initial_setup_screen_profile_basic_info_title" description="Title text for asking profile information">My profile has this info…</string>
+    <string name="initial_setup_screen_profile_basic_info_first_name_title" description="Title text for asking first name">First name</string>
+    <string name="initial_setup_screen_profile_basic_info_first_name_hint_text" description="Input field hint text for profile first name">Insert your first name</string>
+    <string name="initial_setup_screen_profile_basic_info_age_title" description="Title text for asking age">Age</string>
+    <string name="initial_setup_screen_gender_title" description="Title for ask gender screen">I am…</string>
+    <string name="initial_setup_screen_search_settings_title" description="Title for ask search settings screen">I am searching for…</string>
+    <string name="initial_setup_screen_search_settings_min_age_subtitle" description="Subtitle for min age search setting">…with min age…</string>
+    <string name="initial_setup_screen_search_settings_max_age_subtitle" description="Subtitle for max age search setting">…with max age…</string>
+    <string name="initial_setup_screen_location_title" description="Title for initial setup location screen">My profile\'s location is…</string>
+    <string name="initial_setup_screen_location_help_dialog_text" description="Text for initial setup location help dialog">Select a location for your profile by tapping or long pressing the map.</string>
+    <string name="initial_setup_screen_profile_attributes_missing_error_text" description="Error text displayed when profile attributes are not yet downloaded">Profile questions are not yet downloaded.</string>
+    <string name="initial_setup_screen_profile_attributes_download_button" description="Button text for downloading profile attributes">Download questions</string>
+    <string name="initial_setup_screen_profile_attributes_no_questions_text" description="Info text that all required questions are already answered">All required questions already answered.</string>
+
+    <!-- Notification permission -->
+    <string name="notification_permission_dialog_title" description="Title for notification permission dialog">Allow notifications?</string>
+    <string name="notification_permission_dialog_description" description="Description text for notification permission dialog">Allow notifications to receive notifications for example from new likes and messages.</string>
+
+    <!-- Camera screen -->
+    <string name="camera_screen_camera_opening_already_in_progress_error" description="Snackbar error text displayed when user tries to open camera but camera initialization is already in progress">Camera opening in progress</string>
+    <string name="camera_screen_no_front_camera_error" description="Error text displayed when there is no front camera available">No front camera available</string>
+    <string name="camera_screen_camera_initialization_error" description="Error text displayed when camera initialization fails">Camera initialization failed</string>
+    <string name="camera_screen_camera_initialization_error_with_error_code" description="Error text displayed when camera initialization fails and error code exists">Camera initialization failed. Error code: %s</string>
+    <string name="camera_screen_camera_permission_error_try_again_or_check_settings" description="Error text displayed when there is no camera permission">No camera permission. Please try again. If that will not work then grant the camera permission from system settings.</string>
+    <string name="camera_screen_camera_permission_error_check_settings" description="Error text displayed when there is no camera permission and system settings must be used for granting the permission">No camera permission. Please grant the camera permission from system settings.</string>
+<!--  TODO  <string name="camera_screen_camera_access_restricted_error" description="Error text displayed when camera access is restricted">TODO</string>-->
+    <string name="camera_screen_take_photo_error" description="Snackbar error text displayed when taking photo fails">Taking photo failed</string>
+
+    <!-- Map texts -->
+    <string name="map_select_location_help_text" description="Help text for selecting map location">Tap or long press the map to select a location.</string>
+    <string name="map_location_update_successful" description="Snackbar text about successful location update">Location update successful</string>
+    <string name="map_location_update_failed" description="Snackbar text about failed location update">Location update failed</string>
+    <string name="map_openstreetmap_data_attribution_link_text" description="OpenStreetMap data attribution link text">OpenStreetMap contributors</string>
+
+    <!-- Profile grid screen -->
+    <string name="profile_grid_screen_title" description="Title for profile grid screen">Profiles</string>
+    <string name="profile_grid_screen_profile_is_private_info" description="Info text which is shown when profile visibility is set to private">To view profiles, set your profile visibility to public from app settings.</string>
+    <string name="profile_grid_screen_initial_moderation_ongoing" description="Info text that initial moderation is ongoing">You can view profiles and others can see your profile after your profile images are moderated.</string>
+    <string name="profile_grid_screen_initial_moderation_waiting" description="Info text that shows initial moderation queue number">Your position in moderation queue: %s</string>
+    <string name="profile_grid_screen_initial_moderation_in_progress" description="Info text that initial moderation is in progress">Moderation in progress.</string>
+    <string name="profile_grid_screen_initial_moderation_rejected" description="Info text that initial moderation was rejected">Moderator did not accept some profile image. Make new moderation request in settings.</string>
+    <string name="profile_grid_screen_no_profiles_found_title" description="Title that no profiles were found">No profiles found</string>
+    <string name="profile_grid_screen_no_profiles_found_description_filters_enabled" description="Description displayed when there is no profiles and some filter is enabled">Change or disable filter settings</string>
+    <string name="profile_grid_screen_no_profiles_found_description_filters_disabled" description="Description displayed when there is no profiles and there is no filters enabled">Spread the word about the app in social media</string>
+    <string name="profile_grid_screen_profile_filter_settings_update_ongoing" description="Snackbar text that profile filter settings update is ongoing">Profile filter settings update is ongoing</string>
+    <string name="profile_grid_screen_profile_loading_failed" description="Text displayed profile loading fails">Profile loading failed</string>
+
+    <!-- View profile screen -->
+    <string name="view_profile_screen_my_profile_title" description="Title for view profile screen when my profile is viewed">My profile</string>
+    <string name="view_profile_screen_my_profile_loading_failed" description="Text displayed when current account's profile loading fails">Profile loading failed</string>
+    <string name="view_profile_screen_my_profile_edit_action" description="Text for view profile screen edit my profile action">Edit profile</string>
+    <string name="view_profile_screen_block_action" description="Text for view profile screen block action">Block</string>
+    <string name="view_profile_screen_block_action_dialog_title" description="Title for view profile screen block action dialog">Block profile?</string>
+    <string name="view_profile_screen_like_action" description="Text for view profile screen like action">Like</string>
+    <string name="view_profile_screen_like_action_dialog_title" description="Title for view profile screen like action dialog">Like profile?</string>
+    <string name="view_profile_screen_remove_like_action" description="Text for view profile screen remove like action">Remove like</string>
+    <string name="view_profile_screen_remove_like_action_dialog_title" description="Title for view profile screen remove like action dialog">Remove like?</string>
+    <string name="view_profile_screen_match_with_message_action" description="Text for view profile screen match with message action">Match with message</string>
+    <string name="view_profile_screen_chat_action" description="Text for view profile screen chat action">Chat</string>
+    <string name="view_profile_screen_add_to_favorites_action" description="Text for view profile screen add to favorites action">Add to favorites</string>
+    <string name="view_profile_screen_add_to_favorites_action_successful" description="Snackbar text for view profile screen add to favorites action result successful">Added to favorites</string>
+    <string name="view_profile_screen_remove_from_favorites_action" description="Text for view profile screen remove from favorites action">Remove from favorites</string>
+    <string name="view_profile_screen_remove_from_favorites_action_successful" description="Snackbar text for view profile screen remove from favorites action result successful">Removed from favorites</string>
+    <string name="view_profile_screen_profile_not_available_dialog_description" description="Text for view profile screen profile not available dialog">Profile not available</string>
+    <string name="view_profile_screen_like_action_successful" description="Snackbar text for view profile screen like action successful">Like sent</string>
+    <string name="view_profile_screen_like_action_try_again_tomorrow" description="Snackbar text for view profile screen like action failed because of like limit">No daily likes left. Try again tomorrow.</string>
+    <string name="view_profile_screen_like_action_like_already_sent" description="Snackbar text for view profile screen like action failed because of like is already sent">Like already sent</string>
+    <string name="view_profile_screen_already_match" description="Snackbar text for view profile screen displayed when action failed because of the profile is already a match">Already match</string>
+    <string name="view_profile_screen_remove_like_action_successful" description="Snackbar text for view profile screen remove like action successful">Like removed</string>
+    <string name="view_profile_screen_remove_like_action_remove_done_previously" description="Snackbar text for view profile screen remove like action failed because it is done previously">Remove like failed because the previous like removal was detected for the profile</string>
+    <string name="view_profile_screen_remove_like_action_like_not_found" description="Snackbar text for view profile screen remove like action failed because like is not found">Like not found</string>
+    <string name="view_profile_screen_block_action_successful" description="Snackbar text for view profile screen block action successful">Profile blocked</string>
+    <string name="view_profile_screen_profile_edit_failed" description="Snackbar text for notifying about failed profile edit">Profile editing failed</string>
+    <string name="view_profile_screen_profile_currently_online" description="View profile screen text that profile is currently online">Online</string>
+    <string name="view_profile_screen_profile_last_seen_second" description="View profile screen text that profile is last seen second ago">Last seen %s second ago</string>
+    <string name="view_profile_screen_profile_last_seen_seconds" description="View profile screen text that profile is last seen multiple seconds ago">Last seen %s seconds ago</string>
+    <string name="view_profile_screen_profile_last_seen_minute" description="View profile screen text that profile is last seen minute ago">Last seen %s minute ago</string>
+    <string name="view_profile_screen_profile_last_seen_minutes" description="View profile screen text that profile is last seen multiple minutes ago">Last seen %s minutes ago</string>
+    <string name="view_profile_screen_profile_last_seen_hour" description="View profile screen text that profile is last seen hour ago">Last seen %s hour ago</string>
+    <string name="view_profile_screen_profile_last_seen_hours" description="View profile screen text that profile is last seen multiple hours ago">Last seen %s hours ago</string>
+    <string name="view_profile_screen_profile_last_seen_day" description="View profile screen text that profile is last seen day ago">Last seen %s day ago</string>
+    <string name="view_profile_screen_profile_last_seen_days" description="View profile screen text that profile is last seen multiple days ago">Last seen %s days ago</string>
+    <string name="view_profile_screen_non_accepted_profile_name_info_dialog_text" description="View profile screen info dialog text about non-accepted profile name">Profile name is not yet moderated or it is moderated as denied</string>
+
+    <!-- Edit profile screen -->
+    <string name="edit_profile_screen_title" description="Title for edit profile screen">Edit profile</string>
+    <string name="edit_profile_screen_unlimited_likes" description="Title for unlimited likes setting">Unlimited likes</string>
+    <string name="edit_profile_screen_unlimited_likes_description_enabled" description="Description for unlimited likes setting when it is enabled">Send unlimited likes to profiles which have enabled unlimited likes</string>
+    <string name="edit_profile_screen_unlimited_likes_description_disabled" description="Description for unlimited likes setting when it is disabled">Send one like per day</string>
+    <string name="edit_profile_screen_invalid_first_name" description="Snackbar text for notifying about invalid first name">Invalid first name</string>
+    <string name="edit_profile_screen_invalid_age" description="Snackbar text for notifying about invalid age">Invalid age</string>
+    <string name="edit_profile_screen_one_profile_image_required" description="Snackbar text for notifying about that one profile image is required">One profile image is required</string>
+    <string name="edit_profile_screen_automatic_min_age_incrementing_info_dialog_text" description="Dialog text for notifying user when profile age min value is incremented">Min age will be increased to %s in %s</string>
+
+    <!-- Edit attribute value screen -->
+    <string name="edit_attribute_value_screen_one_value_must_be_selected" description="Snackbar text for notifying that one at least one option must be selected">At least one selection is required</string>
+    <string name="edit_attribute_value_screen_search_placeholder_text" description="Attribute value search box placeholder text">Search…</string>
+
+    <!-- Select picture screen -->
+    <string name="select_content_screen_title" description="Title for select content screen">Select image</string>
+    <string name="select_content_screen_initial_moderation_ongoing_info" description="Info text about restrictions when initial moderation is ongoing">Adding new images is possible once current images are moderated.</string>
+    <string name="select_content_screen_info_waiting_moderation" description="Snackbar text that image is waiting moderation">Image is waiting moderation</string>
+
+    <!-- Current moderation request screen -->
+    <string name="current_moderation_request_screen_title" description="Title for current moderation request screen">Image moderation status</string>
+    <string name="current_moderation_request_screen_request_accepted" description="Text for accepted moderation request">All images accepted</string>
+    <string name="current_moderation_request_screen_request_rejected" description="Text for rejected moderation request">Some image was rejected</string>
+    <string name="current_moderation_request_screen_request_waiting" description="Text for waiting moderation request">Images are waiting moderation</string>
+    <string name="current_moderation_request_screen_moderation_queue_position" description="Text for current moderation queue position">Your position in moderation queue: %s</string>
+    <string name="current_moderation_request_screen_new_request_action_when_current_request_rejected" description="Text for new moderation request action when current request is rejected">Try again</string>
+    <string name="current_moderation_request_screen_new_request_action" description="Text for new moderation request action when current request is moderated">Add new images</string>
+    <string name="current_moderation_request_screen_delete_request_action" description="Text for delete moderation request action">Delete moderation request</string>
+    <string name="current_moderation_request_screen_delete_request_dialog_title" description="Dialog title for confirming current moderation request deleting">Delete moderation request?</string>
+    <string name="current_moderation_request_screen_no_request" description="Text displayed when no moderation request is found">No images in moderation</string>
+
+    <!-- New moderation request screen -->
+    <string name="new_moderation_request_screen_title" description="Title for new moderation request screen">New moderation request</string>
+    <string name="new_moderation_request_screen_send_content_button" description="Text for send images to be moderated button">Send to be moderated</string>
+    <string name="new_moderation_request_screen_send_content_confirm_dialog_title" description="Dialog title for confirming send images to be moderated action">Send to be moderated?</string>
+
+    <!-- Profile filtering settings screen -->
+    <string name="profile_filtering_settings_screen_title" description="Title for profile filtering settings screen">Filtering settings</string>
+    <string name="profile_filtering_settings_screen_favorite_profile_filter" description="Title for favorite profile filter">Favorite profile</string>
+    <string name="profile_filtering_settings_screen_unlimited_likes_filter" description="Title for unlimited likes filter">Unlimited likes</string>
+    <string name="profile_filtering_settings_screen_unlimited_likes_filter_not_available" description="Description for unlimited likes filter when unlimited likes are disabled">Enable unlimited likes to use this filter</string>
+    <string name="profile_filtering_settings_screen_profile_last_seen_time_filter" description="Title for profile last seen time filter">Last seen</string>
+    <string name="profile_filtering_settings_screen_profile_last_seen_time_filter_online" description="Value text for profile last seen time filter when only online profiles should be shown">Online</string>
+    <string name="profile_filtering_settings_screen_profile_last_seen_time_filter_day" description="Value text for profile last seen time filter when day is selected">%s day</string>
+    <string name="profile_filtering_settings_screen_profile_last_seen_time_filter_days" description="Value text for profile last seen time filter when multiple days is selected">%s days</string>
+    <string name="profile_filtering_settings_screen_profile_last_seen_time_filter_all" description="Value text for profile last seen time filter when all is selected">Anytime</string>
+    <string name="profile_filtering_settings_screen_updating_filters_failed" description="Snackbar text for notifying about failed profile filters update">Updating profile filters failed</string>
+
+    <!-- Edit profile attribute filter value screen -->
+    <string name="edit_attribute_filter_value_screen_title" description="Title for edit attribute filter screen">Edit filter</string>
+    <string name="edit_attribute_filter_value_screen_search_placeholder_text" description="Attribute value search box placeholder text">Search…</string>
+
+    <!-- Search settings screen -->
+    <string name="search_settings_screen_title" description="Title for search settings">Search options</string>
+    <string name="search_settings_screen_help_text" description="Note about search behavior">Profile grid only shows profiles which match with the above values.</string>
+    <string name="search_settings_screen_age_range_min_value_title" description="Title for search age range min value text field">Min age</string>
+    <string name="search_settings_screen_age_range_max_value_title" description="Title for search age range max value text field">Max age</string>
+    <string name="search_settings_screen_change_gender_filter_action_tile" description="Title for change gender filter value action">Gender filter</string>
+    <string name="search_settings_screen_change_my_gender_action_title" description="Title for change my profile's gender action">Change my profile\'s gender</string>
+    <string name="search_settings_screen_age_range_is_invalid" description="Snackbar text about invalid age range">Age range is invalid</string>
+    <string name="search_settings_screen_gender_is_not_selected" description="Snackbar text about missing gender information">Your gender information is not set</string>
+    <string name="search_settings_screen_gender_filter_is_not_selected" description="Snackbar text about missing gender filter value">Gender filter is not selected</string>
+    <string name="search_settings_screen_search_settings_update_failed" description="Snackbar text about failed search settings update">Updating search settings failed</string>
+
+    <!-- Edit my gender screen -->
+    <string name="edit_my_gender_screen_gender_setting_title" description="Title for gender setting">My profile\'s gender</string>
+
+    <!-- Likes -->
+    <string name="likes_screen_title" description="Title for likes screen">Likes</string>
+    <string name="likes_screen_no_received_likes_found" description="Info text displayed when there is no received likes">No received likes found</string>
+    <string name="likes_screen_like_loading_failed" description="Text displayed when like loading fails">Like loading failed</string>
+    <string name="likes_screen_refresh_action" description="Title for likes screen refresh action">Refresh</string>
+
+    <!-- Chat list -->
+    <string name="chat_list_screen_title" description="Title for chat list screen">Chats</string>
+    <string name="chat_list_screen_no_chats_found" description="Info text displayed when there is no chats">No chats found</string>
+    <string name="chat_list_screen_unread_message" description="Conversation status text for unread message">New message</string>
+    <string name="chat_list_screen_open_matches_screen_action" description="Title for action which opens matches screen">Matches</string>
+
+    <!-- Select match screen -->
+    <string name="select_match_screen_title" description="Title for select match screen">Select match</string>
+    <string name="chat_list_screen_match_loading_failed" description="Error text displayed when match loading fails">Match loading failed</string>
+    <string name="chat_list_screen_no_matches_found" description="Info text displayed when no matches are found">No matches found</string>
+
+    <!-- Conversation screen -->
+    <string name="conversation_screen_profile_blocked" description="Snackbar text displayed when profile blocking is successful">Profile was blocked</string>
+    <string name="conversation_screen_make_match_instruction" description="Instruction text how to make a match">Send a message to make a match!</string>
+    <string name="conversation_screen_chat_box_placeholder_text" description="Message input text field placeholder text">Type a message…</string>
+    <string name="conversation_screen_message_too_long" description="Snackbar text that message is too long">Message is too long</string>
+    <string name="conversation_screen_message_too_many_pending_messages" description="Snackbar text that server is full of pending messages">Server pending message storage is full</string>
+    <string name="conversation_screen_message_state_sending_in_progress" description="Message state text that message sending is in progress">Sending in progress</string>
+    <string name="conversation_screen_message_state_sent_successfully" description="Message state text that message was sent successfully">Sent successfully</string>
+    <string name="conversation_screen_message_state_sending_failed" description="Message state text that message sending failed">Sending failed</string>
+    <string name="conversation_screen_message_state_decrypting_failed" description="Message state text that message decrypting failed">Decrypting failed</string>
+    <string name="conversation_screen_message_state_unknown_message_type" description="Message state text that message type is unknown">Unknown message type</string>
+    <string name="conversation_screen_message_state_public_key_download_failed" description="Message state text that public key download failed">Public key download failed</string>
+    <string name="conversation_screen_message_state_received_successfully" description="Message state text that message was received successfully">Received successfully</string>
+    <string name="conversation_screen_message_details_message_id" description="Title text for message ID value">Message ID</string>
+    <string name="conversation_screen_message_error_is_actually_sent_successfully" description="Message remove or resend error that message is actually sent successfully">The message is actually sent successfully</string>
+    <string name="conversation_screen_message_info_encryption_started" description="Info text that messages in this conversation are end-to-end encrypted">Messages are end-to-end encrypted</string>
+    <string name="conversation_screen_message_info_encryption_key_changed" description="Info text that encryption key changed">Encryption key changed</string>
+
+    <!-- Settings -->
+    <string name="settings_screen_title" description="Title for settings screen">Settings</string>
+
+    <!-- Privacy settings screen -->
+    <string name="privacy_settings_screen_title" description="Title for privacy settings screen">Privacy and security</string>
+    <string name="privacy_settings_screen_profile_visiblity_setting" description="Title for profile visibility setting">Profile visibility</string>
+    <string name="privacy_settings_screen_profile_visiblity_private_description" description="Description for private profile visibility">Your profile is not visible in profile grid</string>
+    <string name="privacy_settings_screen_profile_visiblity_pending_public_description" description="Description for pending public profile visibility">Your profile will be visible in profile grid once your images are moderated as accepted</string>
+    <string name="privacy_settings_screen_profile_visiblity_public_description" description="Description for public profile visibility">Your profile is visible in profile grid</string>
+    <string name="privacy_settings_screen_settings_updating_failed" description="Snackbar text about failed settings update">Updating privacy and security settings failed</string>
+
+    <!-- Bocked profiles screen -->
+    <string name="blocked_profiles_screen_title" description="Title for blocked profiles screen">Blocked profiles</string>
+    <string name="blocked_profiles_screen_placeholder_for_private_profile" description="Placeholder text for private profile">Private profile</string>
+    <string name="blocked_profiles_screen_unblock_profile_dialog_title" description="Title for unblock profile dialog">Unblock profile?</string>
+    <string name="blocked_profiles_screen_unblock_profile_dialog_description" description="Description for unblock profile dialog">Unblock %s</string>
+    <string name="blocked_profiles_screen_unblock_profile_successful" description="Snackbar text displayed when profile unblocking was successful">Unblock successful</string>
+    <string name="blocked_profiles_screen_unblock_profile_failed" description="Snackbar text displayed when profile unblocking failed">Unblock failed</string>
+    <string name="blocked_profiles_screen_unblock_profile_in_progress" description="Snackbar text displayed when profile unblocking failed">Previous unblock is in progress</string>
+    <string name="blocked_profiles_screen_no_blocked_profiles" description="Info text displayed when there is no blocked profiles">No blocked profiles</string>
+
+    <!-- Current security selfie -->
+    <string name="current_security_selfie_screen_title" description="Current security selfie screen title">Security selfie</string>
+
+    <!-- Profile location screen -->
+    <string name="profile_location_screen_title" description="Title for profile location screen">My profile\'s location</string>
+
+    <!-- Data settings selfie -->
+    <string name="data_settings_screen_title" description="Title for data settings">Data management</string>
+
+    <!-- Account settings selfie -->
+    <string name="account_settings_screen_title" description="Title for account settings">Account</string>
+    <string name="account_settings_screen_email_title" description="Title for email text">Email address</string>
+    <string name="account_settings_screen_delete_account_action" description="Title for delete account action">Request account deletion</string>
+    <string name="account_settings_screen_delete_account_action_error" description="Snackbar text about delete account action failure">Requesting account deletion failed</string>
+    <string name="account_settings_screen_delete_account_confirm_dialog_title" description="Title for delete account confirm dialog title">Request account deletion?</string>
+
+    <!-- General settings screen -->
+    <string name="general_settings_screen_title" description="General settings screen title">General</string>
+
+    <!-- Image quality settings screen -->
+    <string name="image_quality_settings_screen_title" description="Image quality settings screen title">Image quality</string>
+    <string name="image_quality_settings_screen_image_cache_max_size" description="Title for image cache max size setting">Image cache max size</string>
+    <string name="image_quality_settings_screen_max_image_quality" description="Title for max image quality setting">Max image quality</string>
+    <string name="image_quality_settings_screen_image_quality_setting" description="Title for image quality setting">Image width and height max quality</string>
+    <string name="image_quality_settings_screen_image_quality_tiny" description="Title for image quality setting tiny value">Tiny</string>
+    <string name="image_quality_settings_screen_image_quality_low" description="Title for image quality setting low value">Low</string>
+    <string name="image_quality_settings_screen_image_quality_medium" description="Title for image quality setting medium value">Medium</string>
+    <string name="image_quality_settings_screen_image_quality_high" description="Title for image quality setting medium value">High</string>
+    <string name="image_quality_settings_screen_image_quality_max" description="Title for image quality setting max value">Max</string>
+    <string name="image_quality_settings_screen_image_quality_custom" description="Title for image quality setting custom value">Custom</string>
+    <string name="image_quality_settings_screen_image_quality_pixel_value" description="Value text for current quality setting">%s pixels</string>
+    <string name="image_quality_settings_screen_reset_to_defaults" description="Title for reset image quality settings to default values action">Reset to default values</string>
+    <string name="image_quality_settings_screen_reset_to_defaults_dialog_title" description="Dialog title for confirming reset image quality settings to default values action">Reset to default values?</string>
+
+    <!-- User interface settings screen -->
+    <string name="user_interface_settings_screen_title" description="User interface settings screen title">User interface</string>
+    <string name="user_interface_settings_screen_show_non_accepted_profile_names" description="Title for show non-accepted profile names setting">Show non-accepted profile names</string>
+
+    <!-- View image screen
+        TODO: Does this page need a title?
+    -->
+    <string name="view_image_screen_title" description="Title for view image screen">View image</string>
+
+    <!-- Crop image screen -->
+    <string name="crop_image_screen_title" description="Title for crop image screen">Crop image</string>
+
+    <!-- News list screen -->
+    <string name="news_list_screen_title" description="Title for news list screen title">News</string>
+    <string name="news_list_screen_not_published" description="News item state text for not yet published news item">Not published</string>
+    <string name="news_list_screen_no_news_found" description="Info text displayed when no news are found">No news found</string>
+    <string name="news_list_screen_news_loading_failed" description="Info text displayed when news loading fails">News loading failed</string>
+    <string name="news_list_screen_create_new" description="Dialog title for create new news item confirmation dialog">Create new?</string>
+
+    <!-- View news screen -->
+    <string name="view_news_screen_published" description="Text for news published time">Published: %s</string>
+    <string name="view_news_screen_edited" description="Text for news edited time">Edited: %s</string>
+
+    <!-- Profile statistics screen -->
+    <string name="profile_statistics_screen_title" description="Title for profile statistics screen">Profile statistics</string>
+    <string name="profile_statistics_screen_profiles_subtitle" description="Subtitle for public profiles info">Public profiles</string>
+    <string name="profile_statistics_screen_time" description="Text for data generation time">Time: %s</string>
+    <string name="profile_statistics_screen_count_account" description="Text for account count">Accounts: %s</string>
+    <string name="profile_statistics_screen_count_profiles" description="Text for public profiles count">Total: %s</string>
+    <string name="profile_statistics_screen_count_man" description="Text for public man profiles count">Men: %s</string>
+    <string name="profile_statistics_screen_count_woman" description="Text for public woman profiles count">Women: %s</string>
+    <string name="profile_statistics_screen_count_non_binary" description="Text for public non-binary profiles count">Non-binaries: %s</string>
+    <string name="profile_statistics_screen_count_bar_chart_tooltip" description="Text for profile bar chart tooltip">Count: %s, Age: %s</string>
+
+    <!-- Admin features -->
+
+    <!-- Admin screen -->
+    <string name="admin_settings_title" description="Title for admin settings screen">Admin</string>
+
+    <!-- Moderate images screen -->
+    <string name="moderate_images_screen_title" description="Title for moderate images page">Moderate images</string>
+    <string name="moderate_images_screen_reject_image_dialog_title" description="Dialog title for confirming image rejection">Reject?</string>
+
+    <!-- Profile statistics history screen -->
+    <string name="profile_statistics_history_screen_title" description="Title for profile statistics history screen">Profile statistics history</string>
+
+    <!-- Moderate profile names screen -->
+    <string name="moderate_profile_names_screen_title" description="Title for moderate profile names screen">Moderate profile names</string>
+
+</resources>

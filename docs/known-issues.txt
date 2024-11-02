@@ -1,0 +1,2 @@
+- Chat -> Block -> Unblock -> go to profile -> it is possible to go chat screen
+again -> and sending chats is not working (backend works correctly)

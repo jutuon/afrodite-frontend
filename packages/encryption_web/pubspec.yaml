@@ -1,0 +1,24 @@
+name: encryption_web
+description: "Encryption related utils implementation for native platforms"
+version: 0.0.1
+
+publish_to: 'none'
+
+environment:
+  sdk: '>=3.3.2 <4.0.0'
+  flutter: '>=3.3.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  utils:
+    path: "../utils"
+
+  encryption_common:
+    path: "../encryption_common"
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0

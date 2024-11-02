@@ -1,0 +1,14 @@
+<resources>
+    <string name="generic_error">Virhe</string>
+    <string name="generic_empty">Tyhjä</string>
+    <string name="generic_cancel">Peruuta</string>
+    <string name="generic_close">Sulje</string>
+    <string name="generic_ok">OK</string>
+    <string name="login_screen_login_button">Kirjaudu</string>
+    <string name="login_screen_register_button">Rekisteröidy</string>
+    <string name="likes_screen_title">Tykkäykset</string>
+    <string name="chat_list_screen_title">Keskustelut</string>
+    <string name="settings_screen_title">Asetukset</string>
+    <string name="view_image_screen_title">Kuva</string>
+    <string name="app_slogan">Deittisovellus</string>
+</resources>

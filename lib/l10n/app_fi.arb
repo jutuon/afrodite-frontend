@@ -1,0 +1,14 @@
+{
+  "app_slogan": "Deittisovellus",
+  "chat_list_screen_title": "Keskustelut",
+  "generic_cancel": "Peruuta",
+  "generic_close": "Sulje",
+  "generic_empty": "Tyhjä",
+  "generic_error": "Virhe",
+  "generic_ok": "OK",
+  "likes_screen_title": "Tykkäykset",
+  "login_screen_login_button": "Kirjaudu",
+  "login_screen_register_button": "Rekisteröidy",
+  "settings_screen_title": "Asetukset",
+  "view_image_screen_title": "Kuva"
+}

@@ -1,0 +1,1368 @@
+{
+  "account_settings_screen_delete_account_action": "Request account deletion",
+  "@account_settings_screen_delete_account_action": {
+    "description": "Title for delete account action"
+  },
+  "account_settings_screen_delete_account_action_error": "Requesting account deletion failed",
+  "@account_settings_screen_delete_account_action_error": {
+    "description": "Snackbar text about delete account action failure"
+  },
+  "account_settings_screen_delete_account_confirm_dialog_title": "Request account deletion?",
+  "@account_settings_screen_delete_account_confirm_dialog_title": {
+    "description": "Title for delete account confirm dialog title"
+  },
+  "account_settings_screen_email_title": "Email address",
+  "@account_settings_screen_email_title": {
+    "description": "Title for email text"
+  },
+  "account_settings_screen_title": "Account",
+  "@account_settings_screen_title": {
+    "description": "Title for account settings"
+  },
+  "admin_settings_title": "Admin",
+  "@admin_settings_title": {
+    "description": "Title for admin settings screen"
+  },
+  "app_bar_action_about": "About",
+  "@app_bar_action_about": {
+    "description": "Title for app bar action which opens about dialog"
+  },
+  "app_name": "Afrodite",
+  "@app_name": {
+    "description": "Name for the app"
+  },
+  "app_slogan": "Dating app",
+  "@app_slogan": {
+    "description": "Slogan for the app"
+  },
+  "blocked_profiles_screen_no_blocked_profiles": "No blocked profiles",
+  "@blocked_profiles_screen_no_blocked_profiles": {
+    "description": "Info text displayed when there is no blocked profiles"
+  },
+  "blocked_profiles_screen_placeholder_for_private_profile": "Private profile",
+  "@blocked_profiles_screen_placeholder_for_private_profile": {
+    "description": "Placeholder text for private profile"
+  },
+  "blocked_profiles_screen_title": "Blocked profiles",
+  "@blocked_profiles_screen_title": {
+    "description": "Title for blocked profiles screen"
+  },
+  "blocked_profiles_screen_unblock_profile_dialog_description": "Unblock {p0}",
+  "@blocked_profiles_screen_unblock_profile_dialog_description": {
+    "description": "Description for unblock profile dialog",
+    "placeholders": {
+      "p0": {
+        "type": "String"
+      }
+    }
+  },
+  "blocked_profiles_screen_unblock_profile_dialog_title": "Unblock profile?",
+  "@blocked_profiles_screen_unblock_profile_dialog_title": {
+    "description": "Title for unblock profile dialog"
+  },
+  "blocked_profiles_screen_unblock_profile_failed": "Unblock failed",
+  "@blocked_profiles_screen_unblock_profile_failed": {
+    "description": "Snackbar text displayed when profile unblocking failed"
+  },
+  "blocked_profiles_screen_unblock_profile_in_progress": "Previous unblock is in progress",
+  "@blocked_profiles_screen_unblock_profile_in_progress": {
+    "description": "Snackbar text displayed when profile unblocking failed"
+  },
+  "blocked_profiles_screen_unblock_profile_successful": "Unblock successful",
+  "@blocked_profiles_screen_unblock_profile_successful": {
+    "description": "Snackbar text displayed when profile unblocking was successful"
+  },
+  "camera_screen_camera_initialization_error": "Camera initialization failed",
+  "@camera_screen_camera_initialization_error": {
+    "description": "Error text displayed when camera initialization fails"
+  },
+  "camera_screen_camera_initialization_error_with_error_code": "Camera initialization failed. Error code: {p0}",
+  "@camera_screen_camera_initialization_error_with_error_code": {
+    "description": "Error text displayed when camera initialization fails and error code exists",
+    "placeholders": {
+      "p0": {
+        "type": "String"
+      }
+    }
+  },
+  "camera_screen_camera_opening_already_in_progress_error": "Camera opening in progress",
+  "@camera_screen_camera_opening_already_in_progress_error": {
+    "description": "Snackbar error text displayed when user tries to open camera but camera initialization is already in progress"
+  },
+  "camera_screen_camera_permission_error_check_settings": "No camera permission. Please grant the camera permission from system settings.",
+  "@camera_screen_camera_permission_error_check_settings": {
+    "description": "Error text displayed when there is no camera permission and system settings must be used for granting the permission"
+  },
+  "camera_screen_camera_permission_error_try_again_or_check_settings": "No camera permission. Please try again. If that will not work then grant the camera permission from system settings.",
+  "@camera_screen_camera_permission_error_try_again_or_check_settings": {
+    "description": "Error text displayed when there is no camera permission"
+  },
+  "camera_screen_no_front_camera_error": "No front camera available",
+  "@camera_screen_no_front_camera_error": {
+    "description": "Error text displayed when there is no front camera available"
+  },
+  "camera_screen_take_photo_error": "Taking photo failed",
+  "@camera_screen_take_photo_error": {
+    "description": "Snackbar error text displayed when taking photo fails"
+  },
+  "chat_list_screen_match_loading_failed": "Match loading failed",
+  "@chat_list_screen_match_loading_failed": {
+    "description": "Error text displayed when match loading fails"
+  },
+  "chat_list_screen_no_chats_found": "No chats found",
+  "@chat_list_screen_no_chats_found": {
+    "description": "Info text displayed when there is no chats"
+  },
+  "chat_list_screen_no_matches_found": "No matches found",
+  "@chat_list_screen_no_matches_found": {
+    "description": "Info text displayed when no matches are found"
+  },
+  "chat_list_screen_open_matches_screen_action": "Matches",
+  "@chat_list_screen_open_matches_screen_action": {
+    "description": "Title for action which opens matches screen"
+  },
+  "chat_list_screen_title": "Chats",
+  "@chat_list_screen_title": {
+    "description": "Title for chat list screen"
+  },
+  "chat_list_screen_unread_message": "New message",
+  "@chat_list_screen_unread_message": {
+    "description": "Conversation status text for unread message"
+  },
+  "conversation_screen_chat_box_placeholder_text": "Type a message…",
+  "@conversation_screen_chat_box_placeholder_text": {
+    "description": "Message input text field placeholder text"
+  },
+  "conversation_screen_make_match_instruction": "Send a message to make a match!",
+  "@conversation_screen_make_match_instruction": {
+    "description": "Instruction text how to make a match"
+  },
+  "conversation_screen_message_details_message_id": "Message ID",
+  "@conversation_screen_message_details_message_id": {
+    "description": "Title text for message ID value"
+  },
+  "conversation_screen_message_error_is_actually_sent_successfully": "The message is actually sent successfully",
+  "@conversation_screen_message_error_is_actually_sent_successfully": {
+    "description": "Message remove or resend error that message is actually sent successfully"
+  },
+  "conversation_screen_message_info_encryption_key_changed": "Encryption key changed",
+  "@conversation_screen_message_info_encryption_key_changed": {
+    "description": "Info text that encryption key changed"
+  },
+  "conversation_screen_message_info_encryption_started": "Messages are end-to-end encrypted",
+  "@conversation_screen_message_info_encryption_started": {
+    "description": "Info text that messages in this conversation are end-to-end encrypted"
+  },
+  "conversation_screen_message_state_decrypting_failed": "Decrypting failed",
+  "@conversation_screen_message_state_decrypting_failed": {
+    "description": "Message state text that message decrypting failed"
+  },
+  "conversation_screen_message_state_public_key_download_failed": "Public key download failed",
+  "@conversation_screen_message_state_public_key_download_failed": {
+    "description": "Message state text that public key download failed"
+  },
+  "conversation_screen_message_state_received_successfully": "Received successfully",
+  "@conversation_screen_message_state_received_successfully": {
+    "description": "Message state text that message was received successfully"
+  },
+  "conversation_screen_message_state_sending_failed": "Sending failed",
+  "@conversation_screen_message_state_sending_failed": {
+    "description": "Message state text that message sending failed"
+  },
+  "conversation_screen_message_state_sending_in_progress": "Sending in progress",
+  "@conversation_screen_message_state_sending_in_progress": {
+    "description": "Message state text that message sending is in progress"
+  },
+  "conversation_screen_message_state_sent_successfully": "Sent successfully",
+  "@conversation_screen_message_state_sent_successfully": {
+    "description": "Message state text that message was sent successfully"
+  },
+  "conversation_screen_message_state_unknown_message_type": "Unknown message type",
+  "@conversation_screen_message_state_unknown_message_type": {
+    "description": "Message state text that message type is unknown"
+  },
+  "conversation_screen_message_too_long": "Message is too long",
+  "@conversation_screen_message_too_long": {
+    "description": "Snackbar text that message is too long"
+  },
+  "conversation_screen_message_too_many_pending_messages": "Server pending message storage is full",
+  "@conversation_screen_message_too_many_pending_messages": {
+    "description": "Snackbar text that server is full of pending messages"
+  },
+  "conversation_screen_profile_blocked": "Profile was blocked",
+  "@conversation_screen_profile_blocked": {
+    "description": "Snackbar text displayed when profile blocking is successful"
+  },
+  "crop_image_screen_title": "Crop image",
+  "@crop_image_screen_title": {
+    "description": "Title for crop image screen"
+  },
+  "current_moderation_request_screen_delete_request_action": "Delete moderation request",
+  "@current_moderation_request_screen_delete_request_action": {
+    "description": "Text for delete moderation request action"
+  },
+  "current_moderation_request_screen_delete_request_dialog_title": "Delete moderation request?",
+  "@current_moderation_request_screen_delete_request_dialog_title": {
+    "description": "Dialog title for confirming current moderation request deleting"
+  },
+  "current_moderation_request_screen_moderation_queue_position": "Your position in moderation queue: {p0}",
+  "@current_moderation_request_screen_moderation_queue_position": {
+    "description": "Text for current moderation queue position",
+    "placeholders": {
+      "p0": {
+        "type": "String"
+      }
+    }
+  },
+  "current_moderation_request_screen_new_request_action": "Add new images",
+  "@current_moderation_request_screen_new_request_action": {
+    "description": "Text for new moderation request action when current request is moderated"
+  },
+  "current_moderation_request_screen_new_request_action_when_current_request_rejected": "Try again",
+  "@current_moderation_request_screen_new_request_action_when_current_request_rejected": {
+    "description": "Text for new moderation request action when current request is rejected"
+  },
+  "current_moderation_request_screen_no_request": "No images in moderation",
+  "@current_moderation_request_screen_no_request": {
+    "description": "Text displayed when no moderation request is found"
+  },
+  "current_moderation_request_screen_request_accepted": "All images accepted",
+  "@current_moderation_request_screen_request_accepted": {
+    "description": "Text for accepted moderation request"
+  },
+  "current_moderation_request_screen_request_rejected": "Some image was rejected",
+  "@current_moderation_request_screen_request_rejected": {
+    "description": "Text for rejected moderation request"
+  },
+  "current_moderation_request_screen_request_waiting": "Images are waiting moderation",
+  "@current_moderation_request_screen_request_waiting": {
+    "description": "Text for waiting moderation request"
+  },
+  "current_moderation_request_screen_title": "Image moderation status",
+  "@current_moderation_request_screen_title": {
+    "description": "Title for current moderation request screen"
+  },
+  "current_security_selfie_screen_title": "Security selfie",
+  "@current_security_selfie_screen_title": {
+    "description": "Current security selfie screen title"
+  },
+  "data_settings_screen_title": "Data management",
+  "@data_settings_screen_title": {
+    "description": "Title for data settings"
+  },
+  "demo_account_screen_confirm_logout_dialog_title": "Logout?",
+  "@demo_account_screen_confirm_logout_dialog_title": {
+    "description": "Dialog title text for confirming logout from demo account"
+  },
+  "demo_account_screen_login_to_account_dialog_title": "Login to account?",
+  "@demo_account_screen_login_to_account_dialog_title": {
+    "description": "Dialog title text for confirming login to some account"
+  },
+  "demo_account_screen_new_account_action": "New account",
+  "@demo_account_screen_new_account_action": {
+    "description": "Text for action which creates a new account"
+  },
+  "demo_account_screen_new_account_dialog_description": "Create new account and login to it?",
+  "@demo_account_screen_new_account_dialog_description": {
+    "description": ""
+  },
+  "demo_account_screen_new_account_dialog_title": "New account",
+  "@demo_account_screen_new_account_dialog_title": {
+    "description": "Dialog title text for action which creates a new account"
+  },
+  "demo_account_screen_no_accounts_available": "No accounts available",
+  "@demo_account_screen_no_accounts_available": {
+    "description": "Text displayed when available accounts list is empty"
+  },
+  "edit_attribute_filter_value_screen_search_placeholder_text": "Search…",
+  "@edit_attribute_filter_value_screen_search_placeholder_text": {
+    "description": "Attribute value search box placeholder text"
+  },
+  "edit_attribute_filter_value_screen_title": "Edit filter",
+  "@edit_attribute_filter_value_screen_title": {
+    "description": "Title for edit attribute filter screen"
+  },
+  "edit_attribute_value_screen_one_value_must_be_selected": "At least one selection is required",
+  "@edit_attribute_value_screen_one_value_must_be_selected": {
+    "description": "Snackbar text for notifying that one at least one option must be selected"
+  },
+  "edit_attribute_value_screen_search_placeholder_text": "Search…",
+  "@edit_attribute_value_screen_search_placeholder_text": {
+    "description": "Attribute value search box placeholder text"
+  },
+  "edit_my_gender_screen_gender_setting_title": "My profile's gender",
+  "@edit_my_gender_screen_gender_setting_title": {
+    "description": "Title for gender setting"
+  },
+  "edit_profile_screen_automatic_min_age_incrementing_info_dialog_text": "Min age will be increased to {p0} in {p1}",
+  "@edit_profile_screen_automatic_min_age_incrementing_info_dialog_text": {
+    "description": "Dialog text for notifying user when profile age min value is incremented",
+    "placeholders": {
+      "p0": {
+        "type": "String"
+      },
+      "p1": {
+        "type": "String"
+      }
+    }
+  },
+  "edit_profile_screen_invalid_age": "Invalid age",
+  "@edit_profile_screen_invalid_age": {
+    "description": "Snackbar text for notifying about invalid age"
+  },
+  "edit_profile_screen_invalid_first_name": "Invalid first name",
+  "@edit_profile_screen_invalid_first_name": {
+    "description": "Snackbar text for notifying about invalid first name"
+  },
+  "edit_profile_screen_one_profile_image_required": "One profile image is required",
+  "@edit_profile_screen_one_profile_image_required": {
+    "description": "Snackbar text for notifying about that one profile image is required"
+  },
+  "edit_profile_screen_title": "Edit profile",
+  "@edit_profile_screen_title": {
+    "description": "Title for edit profile screen"
+  },
+  "edit_profile_screen_unlimited_likes": "Unlimited likes",
+  "@edit_profile_screen_unlimited_likes": {
+    "description": "Title for unlimited likes setting"
+  },
+  "edit_profile_screen_unlimited_likes_description_disabled": "Send one like per day",
+  "@edit_profile_screen_unlimited_likes_description_disabled": {
+    "description": "Description for unlimited likes setting when it is disabled"
+  },
+  "edit_profile_screen_unlimited_likes_description_enabled": "Send unlimited likes to profiles which have enabled unlimited likes",
+  "@edit_profile_screen_unlimited_likes_description_enabled": {
+    "description": "Description for unlimited likes setting when it is enabled"
+  },
+  "general_settings_screen_title": "General",
+  "@general_settings_screen_title": {
+    "description": "General settings screen title"
+  },
+  "generic_action_completed": "Action completed",
+  "@generic_action_completed": {
+    "description": "Generic action completed text"
+  },
+  "generic_cancel": "Cancel",
+  "@generic_cancel": {
+    "description": "Generic cancel text"
+  },
+  "generic_close": "Close",
+  "@generic_close": {
+    "description": "Generic close text"
+  },
+  "generic_continue": "Continue",
+  "@generic_continue": {
+    "description": "Generic continue text"
+  },
+  "generic_data_sync_failed": "Data sync failed",
+  "@generic_data_sync_failed": {
+    "description": "Generic data sync failed"
+  },
+  "generic_delete": "Delete",
+  "@generic_delete": {
+    "description": "Generic delete text"
+  },
+  "generic_details": "Details",
+  "@generic_details": {
+    "description": "Generic details text"
+  },
+  "generic_disabled": "Disabled",
+  "@generic_disabled": {
+    "description": "Generic disabled text"
+  },
+  "generic_empty": "Empty",
+  "@generic_empty": {
+    "description": "Generic empty text"
+  },
+  "generic_error": "Error",
+  "@generic_error": {
+    "description": "Generic error message"
+  },
+  "generic_error_app_version_is_unsupported": "Current app version is unsupported",
+  "generic_error_occurred": "Error occurred",
+  "@generic_error_occurred": {
+    "description": "Generic error occurred text"
+  },
+  "generic_gender_man": "Man",
+  "@generic_gender_man": {
+    "description": "Generic man gender text"
+  },
+  "generic_gender_man_plural": "Men",
+  "@generic_gender_man_plural": {
+    "description": "Generic man gender text in plural form"
+  },
+  "generic_gender_nonbinary": "Non-binary",
+  "@generic_gender_nonbinary": {
+    "description": "Generic non-binary gender text"
+  },
+  "generic_gender_nonbinary_plural": "Non-binaries",
+  "@generic_gender_nonbinary_plural": {
+    "description": "Generic non-binary gender text in plural form"
+  },
+  "generic_gender_woman": "Woman",
+  "@generic_gender_woman": {
+    "description": "Generic woman gender text"
+  },
+  "generic_gender_woman_plural": "Women",
+  "@generic_gender_woman_plural": {
+    "description": "Generic woman gender text in plural form"
+  },
+  "generic_login": "Login",
+  "@generic_login": {
+    "description": "Generic login text"
+  },
+  "generic_logout": "Logout",
+  "@generic_logout": {
+    "description": "Generic logout text"
+  },
+  "generic_logout_confirmation_title": "Logout?",
+  "@generic_logout_confirmation_title": {
+    "description": "Generic logout confirmation title text"
+  },
+  "generic_message": "Message",
+  "@generic_message": {
+    "description": "Generic message text"
+  },
+  "generic_no": "No",
+  "@generic_no": {
+    "description": "Generic no text"
+  },
+  "generic_not_found": "Not found",
+  "@generic_not_found": {
+    "description": "Generic not found text"
+  },
+  "generic_not_supported_on_web": "Not supported on Web",
+  "@generic_not_supported_on_web": {
+    "description": "Generic not supported on web text"
+  },
+  "generic_ok": "OK",
+  "@generic_ok": {
+    "description": "Generic OK text"
+  },
+  "generic_previous_action_in_progress": "Previous action is still in progress",
+  "@generic_previous_action_in_progress": {
+    "description": "Generic previous action in progress text"
+  },
+  "generic_refresh": "Refresh",
+  "@generic_refresh": {
+    "description": "Generic refresh text"
+  },
+  "generic_resend": "Resend",
+  "@generic_resend": {
+    "description": "Generic resend text"
+  },
+  "generic_retry": "Retry",
+  "@generic_retry": {
+    "description": "Generic retry text"
+  },
+  "generic_save_confirmation_title": "Save?",
+  "@generic_save_confirmation_title": {
+    "description": "Generic save confirmation title text"
+  },
+  "generic_search_settings_looking_for_all_genders_text": "All",
+  "generic_show_only_selected": "Show only selected",
+  "@generic_show_only_selected": {
+    "description": "Generic show only selected text"
+  },
+  "generic_state": "State",
+  "@generic_state": {
+    "description": "Generic state text"
+  },
+  "generic_take_photo": "Take photo",
+  "@generic_take_photo": {
+    "description": "Generic take photo text"
+  },
+  "generic_text_field_age_hint_text": "Insert an age between 18–99",
+  "@generic_text_field_age_hint_text": {
+    "description": "Input field hint text for age"
+  },
+  "generic_time": "Time",
+  "@generic_time": {
+    "description": "Generic time text"
+  },
+  "generic_try_again": "Try again",
+  "@generic_try_again": {
+    "description": "Generic try again text"
+  },
+  "generic_yes": "Yes",
+  "@generic_yes": {
+    "description": "Generic yes text"
+  },
+  "image_processing_ui_confirm_photo_dialog_title": "Continue with this photo?",
+  "@image_processing_ui_confirm_photo_dialog_title": {
+    "description": "Dialog title for confirming new security selfie"
+  },
+  "image_processing_ui_upload_failed_dialog_title": "Upload failed",
+  "@image_processing_ui_upload_failed_dialog_title": {
+    "description": "Progress dialog info text that security selfie upload failed"
+  },
+  "image_processing_ui_upload_in_processing_queue_dialog_description": "Waiting for processing. Queue number: {p0}",
+  "@image_processing_ui_upload_in_processing_queue_dialog_description": {
+    "description": "Progress dialog info text that security selfie is currently in server's processing queue",
+    "placeholders": {
+      "p0": {
+        "type": "String"
+      }
+    }
+  },
+  "image_processing_ui_upload_in_progress_dialog_description": "Uploading photo",
+  "@image_processing_ui_upload_in_progress_dialog_description": {
+    "description": "Progress dialog info text that security selfie upload is in progress"
+  },
+  "image_processing_ui_upload_processing_ongoing_description": "Processing ongoing",
+  "@image_processing_ui_upload_processing_ongoing_description": {
+    "description": "Progress dialog info text that security selfie processing is ongoing"
+  },
+  "image_quality_settings_screen_image_cache_max_size": "Image cache max size",
+  "@image_quality_settings_screen_image_cache_max_size": {
+    "description": "Title for image cache max size setting"
+  },
+  "image_quality_settings_screen_image_quality_custom": "Custom",
+  "@image_quality_settings_screen_image_quality_custom": {
+    "description": "Title for image quality setting custom value"
+  },
+  "image_quality_settings_screen_image_quality_high": "High",
+  "@image_quality_settings_screen_image_quality_high": {
+    "description": "Title for image quality setting medium value"
+  },
+  "image_quality_settings_screen_image_quality_low": "Low",
+  "@image_quality_settings_screen_image_quality_low": {
+    "description": "Title for image quality setting low value"
+  },
+  "image_quality_settings_screen_image_quality_max": "Max",
+  "@image_quality_settings_screen_image_quality_max": {
+    "description": "Title for image quality setting max value"
+  },
+  "image_quality_settings_screen_image_quality_medium": "Medium",
+  "@image_quality_settings_screen_image_quality_medium": {
+    "description": "Title for image quality setting medium value"
+  },
+  "image_quality_settings_screen_image_quality_pixel_value": "{p0} pixels",
+  "@image_quality_settings_screen_image_quality_pixel_value": {
+    "description": "Value text for current quality setting",
+    "placeholders": {
+      "p0": {
+        "type": "String"
+      }
+    }
+  },
+  "image_quality_settings_screen_image_quality_setting": "Image width and height max quality",
+  "@image_quality_settings_screen_image_quality_setting": {
+    "description": "Title for image quality setting"
+  },
+  "image_quality_settings_screen_image_quality_tiny": "Tiny",
+  "@image_quality_settings_screen_image_quality_tiny": {
+    "description": "Title for image quality setting tiny value"
+  },
+  "image_quality_settings_screen_max_image_quality": "Max image quality",
+  "@image_quality_settings_screen_max_image_quality": {
+    "description": "Title for max image quality setting"
+  },
+  "image_quality_settings_screen_reset_to_defaults": "Reset to default values",
+  "@image_quality_settings_screen_reset_to_defaults": {
+    "description": "Title for reset image quality settings to default values action"
+  },
+  "image_quality_settings_screen_reset_to_defaults_dialog_title": "Reset to default values?",
+  "@image_quality_settings_screen_reset_to_defaults_dialog_title": {
+    "description": "Dialog title for confirming reset image quality settings to default values action"
+  },
+  "image_quality_settings_screen_title": "Image quality",
+  "@image_quality_settings_screen_title": {
+    "description": "Image quality settings screen title"
+  },
+  "initial_setup_screen_age_confirmation_checkbox": "I'm at least 18 years old",
+  "@initial_setup_screen_age_confirmation_checkbox": {
+    "description": "Title for age confirmation checkbox"
+  },
+  "initial_setup_screen_age_confirmation_title": "Age confirmation",
+  "@initial_setup_screen_age_confirmation_title": {
+    "description": "Title for age confirmation screen"
+  },
+  "initial_setup_screen_email_hint_text": "Insert email address",
+  "@initial_setup_screen_email_hint_text": {
+    "description": "Hint text for inserting email address to text field"
+  },
+  "initial_setup_screen_email_title": "My email address is…",
+  "@initial_setup_screen_email_title": {
+    "description": "Title for initial setup email address info"
+  },
+  "initial_setup_screen_gender_title": "I am…",
+  "@initial_setup_screen_gender_title": {
+    "description": "Title for ask gender screen"
+  },
+  "initial_setup_screen_location_help_dialog_text": "Select a location for your profile by tapping or long pressing the map.",
+  "@initial_setup_screen_location_help_dialog_text": {
+    "description": "Text for initial setup location help dialog"
+  },
+  "initial_setup_screen_location_title": "My profile's location is…",
+  "@initial_setup_screen_location_title": {
+    "description": "Title for initial setup location screen"
+  },
+  "initial_setup_screen_profile_attributes_download_button": "Download questions",
+  "@initial_setup_screen_profile_attributes_download_button": {
+    "description": "Button text for downloading profile attributes"
+  },
+  "initial_setup_screen_profile_attributes_missing_error_text": "Profile questions are not yet downloaded.",
+  "@initial_setup_screen_profile_attributes_missing_error_text": {
+    "description": "Error text displayed when profile attributes are not yet downloaded"
+  },
+  "initial_setup_screen_profile_attributes_no_questions_text": "All required questions already answered.",
+  "@initial_setup_screen_profile_attributes_no_questions_text": {
+    "description": "Info text that all required questions are already answered"
+  },
+  "initial_setup_screen_profile_basic_info_age_title": "Age",
+  "@initial_setup_screen_profile_basic_info_age_title": {
+    "description": "Title text for asking age"
+  },
+  "initial_setup_screen_profile_basic_info_first_name_hint_text": "Insert your first name",
+  "@initial_setup_screen_profile_basic_info_first_name_hint_text": {
+    "description": "Input field hint text for profile first name"
+  },
+  "initial_setup_screen_profile_basic_info_first_name_title": "First name",
+  "@initial_setup_screen_profile_basic_info_first_name_title": {
+    "description": "Title text for asking first name"
+  },
+  "initial_setup_screen_profile_basic_info_title": "My profile has this info…",
+  "@initial_setup_screen_profile_basic_info_title": {
+    "description": "Title text for asking profile information"
+  },
+  "initial_setup_screen_profile_pictures_primary_image_info_dialog_description": "Adding at least of one profile image is required. The square shaped crop of the first profile image is displayed in profile grid and some other places in the app.",
+  "@initial_setup_screen_profile_pictures_primary_image_info_dialog_description": {
+    "description": "Dialog description text about profile primary image"
+  },
+  "initial_setup_screen_profile_pictures_select_picture_dialog_title": "Select picture…",
+  "@initial_setup_screen_profile_pictures_select_picture_dialog_title": {
+    "description": "Dialog title for initial setup profile picture selection dialog"
+  },
+  "initial_setup_screen_profile_pictures_select_picture_from_gallery_title": "From gallery",
+  "@initial_setup_screen_profile_pictures_select_picture_from_gallery_title": {
+    "description": "Action title for selecting profile picture from gallery"
+  },
+  "initial_setup_screen_profile_pictures_select_picture_security_selfie_title": "Security selfie",
+  "@initial_setup_screen_profile_pictures_select_picture_security_selfie_title": {
+    "description": "Action title for using security selfie as a profile picture"
+  },
+  "initial_setup_screen_profile_pictures_select_picture_take_new_picture_title": "Take new photo",
+  "@initial_setup_screen_profile_pictures_select_picture_take_new_picture_title": {
+    "description": "Action title for taking new picture to be used as a profile picture"
+  },
+  "initial_setup_screen_profile_pictures_title": "My profile pictures are…",
+  "@initial_setup_screen_profile_pictures_title": {
+    "description": "Title for profile pictures selection screen"
+  },
+  "initial_setup_screen_search_settings_max_age_subtitle": "…with max age…",
+  "@initial_setup_screen_search_settings_max_age_subtitle": {
+    "description": "Subtitle for max age search setting"
+  },
+  "initial_setup_screen_search_settings_min_age_subtitle": "…with min age…",
+  "@initial_setup_screen_search_settings_min_age_subtitle": {
+    "description": "Subtitle for min age search setting"
+  },
+  "initial_setup_screen_search_settings_title": "I am searching for…",
+  "@initial_setup_screen_search_settings_title": {
+    "description": "Title for ask search settings screen"
+  },
+  "initial_setup_screen_security_selfie_description": "Take selfie with your phone's front camera. The selfie is used for moderating your profile images and by default it is only visible to content Moderators.",
+  "@initial_setup_screen_security_selfie_description": {
+    "description": "Description for initial setup security selfie step"
+  },
+  "initial_setup_screen_security_selfie_title": "My security selfie is…",
+  "@initial_setup_screen_security_selfie_title": {
+    "description": "Title for initial setup security selfie screen"
+  },
+  "likes_screen_like_loading_failed": "Like loading failed",
+  "@likes_screen_like_loading_failed": {
+    "description": "Text displayed when like loading fails"
+  },
+  "likes_screen_no_received_likes_found": "No received likes found",
+  "@likes_screen_no_received_likes_found": {
+    "description": "Info text displayed when there is no received likes"
+  },
+  "likes_screen_refresh_action": "Refresh",
+  "@likes_screen_refresh_action": {
+    "description": "Title for likes screen refresh action"
+  },
+  "likes_screen_title": "Likes",
+  "@likes_screen_title": {
+    "description": "Title for likes screen"
+  },
+  "login_screen_action_demo_account_login": "Demo account login",
+  "@login_screen_action_demo_account_login": {
+    "description": "Text for demo account login action"
+  },
+  "login_screen_demo_account_dialog_description": "Login to demo account on the demo account server.",
+  "@login_screen_demo_account_dialog_description": {
+    "description": "Description for demo account login dialog"
+  },
+  "login_screen_demo_account_dialog_title": "Demo account login",
+  "@login_screen_demo_account_dialog_title": {
+    "description": "Title for demo account login dialog"
+  },
+  "login_screen_demo_account_identifier": "Account ID",
+  "@login_screen_demo_account_identifier": {
+    "description": "Placeholder text for demo account identifier"
+  },
+  "login_screen_demo_account_login_failed": "Login failed",
+  "@login_screen_demo_account_login_failed": {
+    "description": "Snackbar text for demo account login failed"
+  },
+  "login_screen_demo_account_login_progress_dialog": "Login…",
+  "@login_screen_demo_account_login_progress_dialog": {
+    "description": "Dialog info text that demo account login is in progress"
+  },
+  "login_screen_demo_account_login_session_expired": "Demo account session expired",
+  "@login_screen_demo_account_login_session_expired": {
+    "description": "Snackbar text for demo account login session expiration"
+  },
+  "login_screen_demo_account_password": "Password",
+  "@login_screen_demo_account_password": {
+    "description": "Placeholder text for demo account password"
+  },
+  "login_screen_login_button": "Login",
+  "@login_screen_login_button": {
+    "description": "Login button text"
+  },
+  "login_screen_login_note_text_and": "and",
+  "@login_screen_login_note_text_and": {
+    "description": "Word 'and' between terms of service and privacy policy links"
+  },
+  "login_screen_login_note_text_beginning": "By signing in, you agree to our",
+  "@login_screen_login_note_text_beginning": {
+    "description": "Text about agreeing terms of service and privacy policy"
+  },
+  "login_screen_login_note_text_privacy_policy": "Privacy Policy",
+  "@login_screen_login_note_text_privacy_policy": {
+    "description": "Text for privacy policy link"
+  },
+  "login_screen_login_note_text_tos": "Terms of Service",
+  "@login_screen_login_note_text_tos": {
+    "description": "Text for terms of service link"
+  },
+  "login_screen_register_button": "Register",
+  "@login_screen_register_button": {
+    "description": "Register button text"
+  },
+  "login_screen_sign_in_with_error": "Sign in with failed",
+  "@login_screen_sign_in_with_error": {
+    "description": "Snackbar text for sign in with error"
+  },
+  "login_screen_sign_in_with_progress_dialog": "Login…",
+  "@login_screen_sign_in_with_progress_dialog": {
+    "description": "Dialog info text that sign in with login is in progress"
+  },
+  "map_location_update_failed": "Location update failed",
+  "@map_location_update_failed": {
+    "description": "Snackbar text about failed location update"
+  },
+  "map_location_update_successful": "Location update successful",
+  "@map_location_update_successful": {
+    "description": "Snackbar text about successful location update"
+  },
+  "map_openstreetmap_data_attribution_link_text": "OpenStreetMap contributors",
+  "@map_openstreetmap_data_attribution_link_text": {
+    "description": "OpenStreetMap data attribution link text"
+  },
+  "map_select_location_help_text": "Tap or long press the map to select a location.",
+  "@map_select_location_help_text": {
+    "description": "Help text for selecting map location"
+  },
+  "moderate_images_screen_reject_image_dialog_title": "Reject?",
+  "@moderate_images_screen_reject_image_dialog_title": {
+    "description": "Dialog title for confirming image rejection"
+  },
+  "moderate_images_screen_title": "Moderate images",
+  "@moderate_images_screen_title": {
+    "description": "Title for moderate images page"
+  },
+  "moderate_profile_names_screen_title": "Moderate profile names",
+  "@moderate_profile_names_screen_title": {
+    "description": "Title for moderate profile names screen"
+  },
+  "new_moderation_request_screen_send_content_button": "Send to be moderated",
+  "@new_moderation_request_screen_send_content_button": {
+    "description": "Text for send images to be moderated button"
+  },
+  "new_moderation_request_screen_send_content_confirm_dialog_title": "Send to be moderated?",
+  "@new_moderation_request_screen_send_content_confirm_dialog_title": {
+    "description": "Dialog title for confirming send images to be moderated action"
+  },
+  "new_moderation_request_screen_title": "New moderation request",
+  "@new_moderation_request_screen_title": {
+    "description": "Title for new moderation request screen"
+  },
+  "news_list_screen_create_new": "Create new?",
+  "@news_list_screen_create_new": {
+    "description": "Dialog title for create new news item confirmation dialog"
+  },
+  "news_list_screen_news_loading_failed": "News loading failed",
+  "@news_list_screen_news_loading_failed": {
+    "description": "Info text displayed when news loading fails"
+  },
+  "news_list_screen_no_news_found": "No news found",
+  "@news_list_screen_no_news_found": {
+    "description": "Info text displayed when no news are found"
+  },
+  "news_list_screen_not_published": "Not published",
+  "@news_list_screen_not_published": {
+    "description": "News item state text for not yet published news item"
+  },
+  "news_list_screen_title": "News",
+  "@news_list_screen_title": {
+    "description": "Title for news list screen title"
+  },
+  "notification_category_likes": "Likes",
+  "@notification_category_likes": {
+    "description": "Title for notification category likes"
+  },
+  "notification_category_messages": "Messages",
+  "@notification_category_messages": {
+    "description": "Title for notification category messages"
+  },
+  "notification_category_moderation_request_status": "Image moderation status",
+  "@notification_category_moderation_request_status": {
+    "description": "Title for notification category image moderation status"
+  },
+  "notification_like_received_multiple": "Likes received",
+  "@notification_like_received_multiple": {
+    "description": "Title for like received notification when multiple likes is received"
+  },
+  "notification_like_received_single": "Like received",
+  "@notification_like_received_single": {
+    "description": "Title for like received notification when single like is received"
+  },
+  "notification_message_received_multiple": "{p0} sent messages",
+  "@notification_message_received_multiple": {
+    "description": "Title for message received when multiple messages are received",
+    "placeholders": {
+      "p0": {
+        "type": "String"
+      }
+    }
+  },
+  "notification_message_received_single": "{p0} sent a message",
+  "@notification_message_received_single": {
+    "description": "Title for message received when single message is received",
+    "placeholders": {
+      "p0": {
+        "type": "String"
+      }
+    }
+  },
+  "notification_message_received_single_generic": "New message received",
+  "@notification_message_received_single_generic": {
+    "description": "Title for message received when single message is received but there is no info who sent it"
+  },
+  "notification_moderation_request_status_accepted": "Image moderation accepted",
+  "@notification_moderation_request_status_accepted": {
+    "description": "Title for moderation request status notification when status is accepted"
+  },
+  "notification_moderation_request_status_rejected": "Image moderation rejected",
+  "@notification_moderation_request_status_rejected": {
+    "description": "Title for moderation request status notification when status is rejected"
+  },
+  "notification_permission_dialog_description": "Allow notifications to receive notifications for example from new likes and messages.",
+  "@notification_permission_dialog_description": {
+    "description": "Description text for notification permission dialog"
+  },
+  "notification_permission_dialog_title": "Allow notifications?",
+  "@notification_permission_dialog_title": {
+    "description": "Title for notification permission dialog"
+  },
+  "notification_session_expired_error": "Notification action ignored because of expired notification session ID",
+  "@notification_session_expired_error": {
+    "description": "Snackbar text for notifying that notification action was ignored because of expired notification session ID"
+  },
+  "notification_settings_screen_notification_category_disabled_from_system_settings_text": "Disabled from system notification settings",
+  "@notification_settings_screen_notification_category_disabled_from_system_settings_text": {
+    "description": "Info text that notification category is disabled from system settings"
+  },
+  "notification_settings_screen_notifications_disabled_from_system_settings_text": "Notifications are disabled from system notification settings",
+  "@notification_settings_screen_notifications_disabled_from_system_settings_text": {
+    "description": "Info text that notifications are disabled from system settings"
+  },
+  "notification_settings_screen_open_system_notification_settings": "System notification settings",
+  "@notification_settings_screen_open_system_notification_settings": {
+    "description": "Action title for opening system notification settings"
+  },
+  "notification_settings_screen_title": "Notifications",
+  "@notification_settings_screen_title": {
+    "description": "Title for notification settings screen"
+  },
+  "privacy_settings_screen_profile_visiblity_pending_public_description": "Your profile will be visible in profile grid once your images are moderated as accepted",
+  "@privacy_settings_screen_profile_visiblity_pending_public_description": {
+    "description": "Description for pending public profile visibility"
+  },
+  "privacy_settings_screen_profile_visiblity_private_description": "Your profile is not visible in profile grid",
+  "@privacy_settings_screen_profile_visiblity_private_description": {
+    "description": "Description for private profile visibility"
+  },
+  "privacy_settings_screen_profile_visiblity_public_description": "Your profile is visible in profile grid",
+  "@privacy_settings_screen_profile_visiblity_public_description": {
+    "description": "Description for public profile visibility"
+  },
+  "privacy_settings_screen_profile_visiblity_setting": "Profile visibility",
+  "@privacy_settings_screen_profile_visiblity_setting": {
+    "description": "Title for profile visibility setting"
+  },
+  "privacy_settings_screen_settings_updating_failed": "Updating privacy and security settings failed",
+  "@privacy_settings_screen_settings_updating_failed": {
+    "description": "Snackbar text about failed settings update"
+  },
+  "privacy_settings_screen_title": "Privacy and security",
+  "@privacy_settings_screen_title": {
+    "description": "Title for privacy settings screen"
+  },
+  "profile_filtering_settings_screen_favorite_profile_filter": "Favorite profile",
+  "@profile_filtering_settings_screen_favorite_profile_filter": {
+    "description": "Title for favorite profile filter"
+  },
+  "profile_filtering_settings_screen_profile_last_seen_time_filter": "Last seen",
+  "@profile_filtering_settings_screen_profile_last_seen_time_filter": {
+    "description": "Title for profile last seen time filter"
+  },
+  "profile_filtering_settings_screen_profile_last_seen_time_filter_all": "Anytime",
+  "@profile_filtering_settings_screen_profile_last_seen_time_filter_all": {
+    "description": "Value text for profile last seen time filter when all is selected"
+  },
+  "profile_filtering_settings_screen_profile_last_seen_time_filter_day": "{p0} day",
+  "@profile_filtering_settings_screen_profile_last_seen_time_filter_day": {
+    "description": "Value text for profile last seen time filter when day is selected",
+    "placeholders": {
+      "p0": {
+        "type": "String"
+      }
+    }
+  },
+  "profile_filtering_settings_screen_profile_last_seen_time_filter_days": "{p0} days",
+  "@profile_filtering_settings_screen_profile_last_seen_time_filter_days": {
+    "description": "Value text for profile last seen time filter when multiple days is selected",
+    "placeholders": {
+      "p0": {
+        "type": "String"
+      }
+    }
+  },
+  "profile_filtering_settings_screen_profile_last_seen_time_filter_online": "Online",
+  "@profile_filtering_settings_screen_profile_last_seen_time_filter_online": {
+    "description": "Value text for profile last seen time filter when only online profiles should be shown"
+  },
+  "profile_filtering_settings_screen_title": "Filtering settings",
+  "@profile_filtering_settings_screen_title": {
+    "description": "Title for profile filtering settings screen"
+  },
+  "profile_filtering_settings_screen_unlimited_likes_filter": "Unlimited likes",
+  "@profile_filtering_settings_screen_unlimited_likes_filter": {
+    "description": "Title for unlimited likes filter"
+  },
+  "profile_filtering_settings_screen_unlimited_likes_filter_not_available": "Enable unlimited likes to use this filter",
+  "@profile_filtering_settings_screen_unlimited_likes_filter_not_available": {
+    "description": "Description for unlimited likes filter when unlimited likes are disabled"
+  },
+  "profile_filtering_settings_screen_updating_filters_failed": "Updating profile filters failed",
+  "@profile_filtering_settings_screen_updating_filters_failed": {
+    "description": "Snackbar text for notifying about failed profile filters update"
+  },
+  "profile_grid_screen_initial_moderation_in_progress": "Moderation in progress.",
+  "@profile_grid_screen_initial_moderation_in_progress": {
+    "description": "Info text that initial moderation is in progress"
+  },
+  "profile_grid_screen_initial_moderation_ongoing": "You can view profiles and others can see your profile after your profile images are moderated.",
+  "@profile_grid_screen_initial_moderation_ongoing": {
+    "description": "Info text that initial moderation is ongoing"
+  },
+  "profile_grid_screen_initial_moderation_rejected": "Moderator did not accept some profile image. Make new moderation request in settings.",
+  "@profile_grid_screen_initial_moderation_rejected": {
+    "description": "Info text that initial moderation was rejected"
+  },
+  "profile_grid_screen_initial_moderation_waiting": "Your position in moderation queue: {p0}",
+  "@profile_grid_screen_initial_moderation_waiting": {
+    "description": "Info text that shows initial moderation queue number",
+    "placeholders": {
+      "p0": {
+        "type": "String"
+      }
+    }
+  },
+  "profile_grid_screen_no_profiles_found_description_filters_disabled": "Spread the word about the app in social media",
+  "@profile_grid_screen_no_profiles_found_description_filters_disabled": {
+    "description": "Description displayed when there is no profiles and there is no filters enabled"
+  },
+  "profile_grid_screen_no_profiles_found_description_filters_enabled": "Change or disable filter settings",
+  "@profile_grid_screen_no_profiles_found_description_filters_enabled": {
+    "description": "Description displayed when there is no profiles and some filter is enabled"
+  },
+  "profile_grid_screen_no_profiles_found_title": "No profiles found",
+  "@profile_grid_screen_no_profiles_found_title": {
+    "description": "Title that no profiles were found"
+  },
+  "profile_grid_screen_profile_filter_settings_update_ongoing": "Profile filter settings update is ongoing",
+  "@profile_grid_screen_profile_filter_settings_update_ongoing": {
+    "description": "Snackbar text that profile filter settings update is ongoing"
+  },
+  "profile_grid_screen_profile_is_private_info": "To view profiles, set your profile visibility to public from app settings.",
+  "@profile_grid_screen_profile_is_private_info": {
+    "description": "Info text which is shown when profile visibility is set to private"
+  },
+  "profile_grid_screen_profile_loading_failed": "Profile loading failed",
+  "@profile_grid_screen_profile_loading_failed": {
+    "description": "Text displayed profile loading fails"
+  },
+  "profile_grid_screen_title": "Profiles",
+  "@profile_grid_screen_title": {
+    "description": "Title for profile grid screen"
+  },
+  "profile_location_screen_title": "My profile's location",
+  "@profile_location_screen_title": {
+    "description": "Title for profile location screen"
+  },
+  "profile_statistics_history_screen_title": "Profile statistics history",
+  "@profile_statistics_history_screen_title": {
+    "description": "Title for profile statistics history screen"
+  },
+  "profile_statistics_screen_count_account": "Accounts: {p0}",
+  "@profile_statistics_screen_count_account": {
+    "description": "Text for account count",
+    "placeholders": {
+      "p0": {
+        "type": "String"
+      }
+    }
+  },
+  "profile_statistics_screen_count_bar_chart_tooltip": "Count: {p0}, Age: {p1}",
+  "@profile_statistics_screen_count_bar_chart_tooltip": {
+    "description": "Text for profile bar chart tooltip",
+    "placeholders": {
+      "p0": {
+        "type": "String"
+      },
+      "p1": {
+        "type": "String"
+      }
+    }
+  },
+  "profile_statistics_screen_count_man": "Men: {p0}",
+  "@profile_statistics_screen_count_man": {
+    "description": "Text for public man profiles count",
+    "placeholders": {
+      "p0": {
+        "type": "String"
+      }
+    }
+  },
+  "profile_statistics_screen_count_non_binary": "Non-binaries: {p0}",
+  "@profile_statistics_screen_count_non_binary": {
+    "description": "Text for public non-binary profiles count",
+    "placeholders": {
+      "p0": {
+        "type": "String"
+      }
+    }
+  },
+  "profile_statistics_screen_count_profiles": "Total: {p0}",
+  "@profile_statistics_screen_count_profiles": {
+    "description": "Text for public profiles count",
+    "placeholders": {
+      "p0": {
+        "type": "String"
+      }
+    }
+  },
+  "profile_statistics_screen_count_woman": "Women: {p0}",
+  "@profile_statistics_screen_count_woman": {
+    "description": "Text for public woman profiles count",
+    "placeholders": {
+      "p0": {
+        "type": "String"
+      }
+    }
+  },
+  "profile_statistics_screen_profiles_subtitle": "Public profiles",
+  "@profile_statistics_screen_profiles_subtitle": {
+    "description": "Subtitle for public profiles info"
+  },
+  "profile_statistics_screen_time": "Time: {p0}",
+  "@profile_statistics_screen_time": {
+    "description": "Text for data generation time",
+    "placeholders": {
+      "p0": {
+        "type": "String"
+      }
+    }
+  },
+  "profile_statistics_screen_title": "Profile statistics",
+  "@profile_statistics_screen_title": {
+    "description": "Title for profile statistics screen"
+  },
+  "search_settings_screen_age_range_is_invalid": "Age range is invalid",
+  "@search_settings_screen_age_range_is_invalid": {
+    "description": "Snackbar text about invalid age range"
+  },
+  "search_settings_screen_age_range_max_value_title": "Max age",
+  "@search_settings_screen_age_range_max_value_title": {
+    "description": "Title for search age range max value text field"
+  },
+  "search_settings_screen_age_range_min_value_title": "Min age",
+  "@search_settings_screen_age_range_min_value_title": {
+    "description": "Title for search age range min value text field"
+  },
+  "search_settings_screen_change_gender_filter_action_tile": "Gender filter",
+  "@search_settings_screen_change_gender_filter_action_tile": {
+    "description": "Title for change gender filter value action"
+  },
+  "search_settings_screen_change_my_gender_action_title": "Change my profile's gender",
+  "@search_settings_screen_change_my_gender_action_title": {
+    "description": "Title for change my profile's gender action"
+  },
+  "search_settings_screen_gender_filter_is_not_selected": "Gender filter is not selected",
+  "@search_settings_screen_gender_filter_is_not_selected": {
+    "description": "Snackbar text about missing gender filter value"
+  },
+  "search_settings_screen_gender_is_not_selected": "Your gender information is not set",
+  "@search_settings_screen_gender_is_not_selected": {
+    "description": "Snackbar text about missing gender information"
+  },
+  "search_settings_screen_help_text": "Profile grid only shows profiles which match with the above values.",
+  "@search_settings_screen_help_text": {
+    "description": "Note about search behavior"
+  },
+  "search_settings_screen_search_settings_update_failed": "Updating search settings failed",
+  "@search_settings_screen_search_settings_update_failed": {
+    "description": "Snackbar text about failed search settings update"
+  },
+  "search_settings_screen_title": "Search options",
+  "@search_settings_screen_title": {
+    "description": "Title for search settings"
+  },
+  "select_content_screen_info_waiting_moderation": "Image is waiting moderation",
+  "@select_content_screen_info_waiting_moderation": {
+    "description": "Snackbar text that image is waiting moderation"
+  },
+  "select_content_screen_initial_moderation_ongoing_info": "Adding new images is possible once current images are moderated.",
+  "@select_content_screen_initial_moderation_ongoing_info": {
+    "description": "Info text about restrictions when initial moderation is ongoing"
+  },
+  "select_content_screen_title": "Select image",
+  "@select_content_screen_title": {
+    "description": "Title for select content screen"
+  },
+  "select_match_screen_title": "Select match",
+  "@select_match_screen_title": {
+    "description": "Title for select match screen"
+  },
+  "settings_screen_title": "Settings",
+  "@settings_screen_title": {
+    "description": "Title for settings screen"
+  },
+  "url_app_privacy_policy_link": "https://example.com",
+  "url_app_tos_link": "https://example.com",
+  "user_interface_settings_screen_show_non_accepted_profile_names": "Show non-accepted profile names",
+  "@user_interface_settings_screen_show_non_accepted_profile_names": {
+    "description": "Title for show non-accepted profile names setting"
+  },
+  "user_interface_settings_screen_title": "User interface",
+  "@user_interface_settings_screen_title": {
+    "description": "User interface settings screen title"
+  },
+  "view_image_screen_title": "View image",
+  "@view_image_screen_title": {
+    "description": "Title for view image screen"
+  },
+  "view_news_screen_edited": "Edited: {p0}",
+  "@view_news_screen_edited": {
+    "description": "Text for news edited time",
+    "placeholders": {
+      "p0": {
+        "type": "String"
+      }
+    }
+  },
+  "view_news_screen_published": "Published: {p0}",
+  "@view_news_screen_published": {
+    "description": "Text for news published time",
+    "placeholders": {
+      "p0": {
+        "type": "String"
+      }
+    }
+  },
+  "view_profile_screen_add_to_favorites_action": "Add to favorites",
+  "@view_profile_screen_add_to_favorites_action": {
+    "description": "Text for view profile screen add to favorites action"
+  },
+  "view_profile_screen_add_to_favorites_action_successful": "Added to favorites",
+  "@view_profile_screen_add_to_favorites_action_successful": {
+    "description": "Snackbar text for view profile screen add to favorites action result successful"
+  },
+  "view_profile_screen_already_match": "Already match",
+  "@view_profile_screen_already_match": {
+    "description": "Snackbar text for view profile screen displayed when action failed because of the profile is already a match"
+  },
+  "view_profile_screen_block_action": "Block",
+  "@view_profile_screen_block_action": {
+    "description": "Text for view profile screen block action"
+  },
+  "view_profile_screen_block_action_dialog_title": "Block profile?",
+  "@view_profile_screen_block_action_dialog_title": {
+    "description": "Title for view profile screen block action dialog"
+  },
+  "view_profile_screen_block_action_successful": "Profile blocked",
+  "@view_profile_screen_block_action_successful": {
+    "description": "Snackbar text for view profile screen block action successful"
+  },
+  "view_profile_screen_chat_action": "Chat",
+  "@view_profile_screen_chat_action": {
+    "description": "Text for view profile screen chat action"
+  },
+  "view_profile_screen_like_action": "Like",
+  "@view_profile_screen_like_action": {
+    "description": "Text for view profile screen like action"
+  },
+  "view_profile_screen_like_action_dialog_title": "Like profile?",
+  "@view_profile_screen_like_action_dialog_title": {
+    "description": "Title for view profile screen like action dialog"
+  },
+  "view_profile_screen_like_action_like_already_sent": "Like already sent",
+  "@view_profile_screen_like_action_like_already_sent": {
+    "description": "Snackbar text for view profile screen like action failed because of like is already sent"
+  },
+  "view_profile_screen_like_action_successful": "Like sent",
+  "@view_profile_screen_like_action_successful": {
+    "description": "Snackbar text for view profile screen like action successful"
+  },
+  "view_profile_screen_like_action_try_again_tomorrow": "No daily likes left. Try again tomorrow.",
+  "@view_profile_screen_like_action_try_again_tomorrow": {
+    "description": "Snackbar text for view profile screen like action failed because of like limit"
+  },
+  "view_profile_screen_match_with_message_action": "Match with message",
+  "@view_profile_screen_match_with_message_action": {
+    "description": "Text for view profile screen match with message action"
+  },
+  "view_profile_screen_my_profile_edit_action": "Edit profile",
+  "@view_profile_screen_my_profile_edit_action": {
+    "description": "Text for view profile screen edit my profile action"
+  },
+  "view_profile_screen_my_profile_loading_failed": "Profile loading failed",
+  "@view_profile_screen_my_profile_loading_failed": {
+    "description": "Text displayed when current account's profile loading fails"
+  },
+  "view_profile_screen_my_profile_title": "My profile",
+  "@view_profile_screen_my_profile_title": {
+    "description": "Title for view profile screen when my profile is viewed"
+  },
+  "view_profile_screen_non_accepted_profile_name_info_dialog_text": "Profile name is not yet moderated or it is moderated as denied",
+  "@view_profile_screen_non_accepted_profile_name_info_dialog_text": {
+    "description": "View profile screen info dialog text about non-accepted profile name"
+  },
+  "view_profile_screen_profile_currently_online": "Online",
+  "@view_profile_screen_profile_currently_online": {
+    "description": "View profile screen text that profile is currently online"
+  },
+  "view_profile_screen_profile_edit_failed": "Profile editing failed",
+  "@view_profile_screen_profile_edit_failed": {
+    "description": "Snackbar text for notifying about failed profile edit"
+  },
+  "view_profile_screen_profile_last_seen_day": "Last seen {p0} day ago",
+  "@view_profile_screen_profile_last_seen_day": {
+    "description": "View profile screen text that profile is last seen day ago",
+    "placeholders": {
+      "p0": {
+        "type": "String"
+      }
+    }
+  },
+  "view_profile_screen_profile_last_seen_days": "Last seen {p0} days ago",
+  "@view_profile_screen_profile_last_seen_days": {
+    "description": "View profile screen text that profile is last seen multiple days ago",
+    "placeholders": {
+      "p0": {
+        "type": "String"
+      }
+    }
+  },
+  "view_profile_screen_profile_last_seen_hour": "Last seen {p0} hour ago",
+  "@view_profile_screen_profile_last_seen_hour": {
+    "description": "View profile screen text that profile is last seen hour ago",
+    "placeholders": {
+      "p0": {
+        "type": "String"
+      }
+    }
+  },
+  "view_profile_screen_profile_last_seen_hours": "Last seen {p0} hours ago",
+  "@view_profile_screen_profile_last_seen_hours": {
+    "description": "View profile screen text that profile is last seen multiple hours ago",
+    "placeholders": {
+      "p0": {
+        "type": "String"
+      }
+    }
+  },
+  "view_profile_screen_profile_last_seen_minute": "Last seen {p0} minute ago",
+  "@view_profile_screen_profile_last_seen_minute": {
+    "description": "View profile screen text that profile is last seen minute ago",
+    "placeholders": {
+      "p0": {
+        "type": "String"
+      }
+    }
+  },
+  "view_profile_screen_profile_last_seen_minutes": "Last seen {p0} minutes ago",
+  "@view_profile_screen_profile_last_seen_minutes": {
+    "description": "View profile screen text that profile is last seen multiple minutes ago",
+    "placeholders": {
+      "p0": {
+        "type": "String"
+      }
+    }
+  },
+  "view_profile_screen_profile_last_seen_second": "Last seen {p0} second ago",
+  "@view_profile_screen_profile_last_seen_second": {
+    "description": "View profile screen text that profile is last seen second ago",
+    "placeholders": {
+      "p0": {
+        "type": "String"
+      }
+    }
+  },
+  "view_profile_screen_profile_last_seen_seconds": "Last seen {p0} seconds ago",
+  "@view_profile_screen_profile_last_seen_seconds": {
+    "description": "View profile screen text that profile is last seen multiple seconds ago",
+    "placeholders": {
+      "p0": {
+        "type": "String"
+      }
+    }
+  },
+  "view_profile_screen_profile_not_available_dialog_description": "Profile not available",
+  "@view_profile_screen_profile_not_available_dialog_description": {
+    "description": "Text for view profile screen profile not available dialog"
+  },
+  "view_profile_screen_remove_from_favorites_action": "Remove from favorites",
+  "@view_profile_screen_remove_from_favorites_action": {
+    "description": "Text for view profile screen remove from favorites action"
+  },
+  "view_profile_screen_remove_from_favorites_action_successful": "Removed from favorites",
+  "@view_profile_screen_remove_from_favorites_action_successful": {
+    "description": "Snackbar text for view profile screen remove from favorites action result successful"
+  },
+  "view_profile_screen_remove_like_action": "Remove like",
+  "@view_profile_screen_remove_like_action": {
+    "description": "Text for view profile screen remove like action"
+  },
+  "view_profile_screen_remove_like_action_dialog_title": "Remove like?",
+  "@view_profile_screen_remove_like_action_dialog_title": {
+    "description": "Title for view profile screen remove like action dialog"
+  },
+  "view_profile_screen_remove_like_action_like_not_found": "Like not found",
+  "@view_profile_screen_remove_like_action_like_not_found": {
+    "description": "Snackbar text for view profile screen remove like action failed because like is not found"
+  },
+  "view_profile_screen_remove_like_action_remove_done_previously": "Remove like failed because the previous like removal was detected for the profile",
+  "@view_profile_screen_remove_like_action_remove_done_previously": {
+    "description": "Snackbar text for view profile screen remove like action failed because it is done previously"
+  },
+  "view_profile_screen_remove_like_action_successful": "Like removed",
+  "@view_profile_screen_remove_like_action_successful": {
+    "description": "Snackbar text for view profile screen remove like action successful"
+  }
+}
